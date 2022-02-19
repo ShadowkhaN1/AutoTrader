@@ -1,0 +1,169 @@
+<div style="min-width: 800px">
+  <mat-card>
+    <mat-tab-group>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div fxLayout="column" fxLayoutAlign="center center">
+            <mat-icon class="example-tab-icon">directions_car</mat-icon>
+            <span>Osobowe</span>
+          </div>
+        </ng-template>
+        <div style="margin-top: 20px;" fxLayout="column">
+
+          <!-- First row -->
+          <div fxLayout="row" fxLayoutAlign="space-between center">
+            <div style="width: 350px;">
+              <mat-form-field appearance="fill">
+                <mat-label>Typ nadwozia</mat-label>
+                <mat-select>
+                  <mat-option value="one">Coupe</mat-option>
+                  <mat-option value="two">Kabriolet</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+
+            <div style="width: 350px;">
+              <mat-form-field appearance="fill">
+                <mat-label>Marka pojazdu</mat-label>
+                <mat-select>
+                  <mat-option value="one">Audi</mat-option>
+                  <mat-option value="two">BMW</mat-option>
+                  <mat-option value="two">Mercedes</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <!-- Second row -->
+          <div fxLayout="row" fxLayoutAlign="space-between center">
+            <div style="width: 350px;">
+              <mat-form-field appearance="fill">
+                <mat-label>Model pojazdu</mat-label>
+                <mat-select>
+                  <mat-option value="one">First option</mat-option>
+                  <mat-option value="two">Second option</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div style="width: 350px;">
+              <mat-form-field appearance="fill">
+                <mat-label>Generacja</mat-label>
+                <mat-select>
+                  <mat-option value="one">First option</mat-option>
+                  <mat-option value="two">Second option</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <!-- third row -->
+          <div fxLayout="row" fxLayoutAlign="space-between center">
+            <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="12px">
+              <div style="width: 170px;">
+                <mat-form-field appearance="fill">
+                  <mat-label>Cena od</mat-label>
+                  <mat-select>
+                    <mat-option value="one">2000 PLN</mat-option>
+                    <mat-option value="two">3000 PLN</mat-option>
+                    <mat-option value="two">5000 PLN</mat-option>
+                    <mat-option value="two">10000 PLN</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+              <div style="width: 170px;">
+                <mat-form-field appearance="fill">
+                  <mat-label>Cena do</mat-label>
+                  <mat-select>
+                    <mat-option value="one">2000 PLN</mat-option>
+                    <mat-option value="two">3000 PLN</mat-option>
+                    <mat-option value="two">5000 PLN</mat-option>
+                    <mat-option value="two">10000 PLN</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            </div>
+
+            <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="12px">
+              <div style="width: 170px;">
+                <mat-form-field appearance="fill">
+                  <mat-label>Rok produkcji od</mat-label>
+                  <mat-select>
+                    <mat-option value="one">2000</mat-option>
+                    <mat-option value="two">2001</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+              <div style="width: 170px;">
+                <mat-form-field appearance="fill">
+                  <mat-label>Rok produkcji do</mat-label>
+                  <mat-select>
+                    <mat-option value="one">2000</mat-option>
+                    <mat-option value="two">2001</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+          <!-- First row -->
+          <div fxLayout="row" fxLayoutAlign="space-between center">
+            <div style="width: 350px;">
+              <mat-form-field appearance="fill">
+                <mat-label>Rodzaj paliwa</mat-label>
+                <mat-select>
+                  <mat-option value="one">Benzyna</mat-option>
+                  <mat-option value="two">Diesel</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+
+            <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="12px">
+              <div style="width: 170px;">
+                <mat-form-field appearance="fill">
+                  <mat-label>Przebieg od</mat-label>
+                  <mat-select>
+                    <mat-option value="one">2000</mat-option>
+                    <mat-option value="two">2001</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+              <div style="width: 170px;">
+                <mat-form-field appearance="fill">
+                  <mat-label>Przebieg do</mat-label>
+                  <mat-select>
+                    <mat-option value="one">2000</mat-option>
+                    <mat-option value="two">2001</mat-option>
+                  </mat-select>
+                </mat-form-field>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div fxLayout="column" fxLayoutAlign="center center">
+            <mat-icon class="example-tab-icon">two_wheeler</mat-icon>
+            <span>Motocykle</span>
+          </div>
+        </ng-template>
+        Content 2
+      </mat-tab>
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <div fxLayout="column" fxLayoutAlign="center center">
+            <mat-icon class="example-tab-icon">local_shipping</mat-icon>
+            <span>Ciężarowe</span>
+          </div>
+        </ng-template>
+        Content 3
+      </mat-tab>
+    </mat-tab-group>
+
+    <div fxLayout="row" fxLayoutAlign="end">
+      <button mat-raised-button color="warn">Pokaż 172 664 Ogłoszeń</button>
+    </div>
+
+  </mat-card>
+</div>

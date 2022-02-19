@@ -1,0 +1,25 @@
+<mat-toolbar color="primary">
+  <div fxLayout="row" fxLayoutAlign="start center">
+    <button mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>AutoTrader</span>
+  </div>
+  <span class="example-spacer"></span>
+  <div fxLayout="row" fxLayoutAlign="start center">
+    <mat-icon>person</mat-icon>
+    <button mat-button>
+      Zaloguj się
+    </button>
+    <span>|</span>
+    <button mat-button>
+      Zarejestruj się
+    </button>
+    <div fxLayout="row" fxLayoutAlign="start center">
+      <button [routerLink]="['/add-advertisement']" mat-raised-button>
+        <mat-icon>add</mat-icon>
+        <span>Dodaj ogłoszenie</span>
+      </button>
+    </div>
+  </div>
+</mat-toolbar>
