@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AutoTrader.Controllers
+namespace AutoTrader.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

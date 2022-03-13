@@ -1,4 +1,5 @@
-namespace AutoTrader
+namespace AutoTrader.API
+
 {
     public class WeatherForecast
     {
