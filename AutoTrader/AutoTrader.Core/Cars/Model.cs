@@ -1,11 +1,18 @@
-﻿namespace AutoTrader.Core.Cars;
+﻿namespace AutoTrader.Domain.Cars;
 
 public class Model
 {
     private List<SalesCar> _salesCars = new List<SalesCar>();
 
-    public Model(string name)
+    private Model()
     {
+        // EF Core needs it to generate migrations
+    }
+
+    public Model(string name, Brand brand)
+    {
+        Name = name;
+        Brand = brand;
         Id = new Guid();
     }
 
