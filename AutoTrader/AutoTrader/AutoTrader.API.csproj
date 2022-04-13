@@ -14,4 +14,8 @@
     <Folder Include="Service\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AutoTrader.Application\AutoTrader.Application.csproj" />
+  </ItemGroup>
+
 </Project>

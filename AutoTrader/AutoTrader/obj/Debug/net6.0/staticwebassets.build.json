@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "pjO2hlPaM07tewmVPhYEF0YbFEcqq2P9fQTNOEbH66A=",
-  "Source": "AutoTrader",
-  "BasePath": "_content/AutoTrader",
+  "Hash": "suoyuy+DmL4TrI2RmFP+cz1ORcrpfjrCc8DxU/DcneY=",
+  "Source": "AutoTrader.API",
+  "BasePath": "_content/AutoTrader.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

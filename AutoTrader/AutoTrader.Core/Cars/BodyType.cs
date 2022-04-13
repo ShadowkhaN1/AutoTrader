@@ -1,4 +1,4 @@
-﻿namespace AutoTrader.Core.Cars;
+﻿namespace AutoTrader.Domain.Cars;
 
 public enum BodyType
 {

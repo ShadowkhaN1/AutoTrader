@@ -1,27 +1,15 @@
 ﻿namespace AutoTrader.Common
 {
-    internal class BaseEntity
+    public class BaseEntity
     {
-        protected BaseEntity()
-        {
+        public Guid Id { get; set; }
 
-        }
+        public DateTimeOffset Created { get; set; }
 
-        protected BaseEntity(
-            string createdBy,
-            DateTimeOffset created,
-            string lastModifiedBy,
-            DateTimeOffset? lastModified)
-        {
-            CreatedBy = createdBy;
-            Created = created;
-            LastModifiedBy = lastModifiedBy;
-            LastModified = lastModified;
-        }
+        public string? CreatedBy { get; set; }
 
-        public string CreatedBy { get; protected set; }
-        public DateTimeOffset Created { get; protected set; }
-        public string LastModifiedBy { get; protected set; }
-        public DateTimeOffset? LastModified { get; protected set; }
+        public DateTimeOffset? LastModified { get; set; }
+
+        public string? LastModifiedBy { get; set; }
     }
 }
