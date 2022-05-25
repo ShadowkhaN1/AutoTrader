@@ -16,8 +16,8 @@ public class SalesCarDto
     [DataType(DataType.Currency)]
     [Column(TypeName = "decimal(18, 2)")]
     public decimal Price { get; set; }
-    public string Color { get; set; }
-    public BodyType Type { get; set; }
+    public Color Color { get; set; }
+    public BodyType BodyType { get; set; }
 
     [DataType(DataType.PhoneNumber)]
     public int PhoneNumber { get; set; }
@@ -25,6 +25,5 @@ public class SalesCarDto
 
     [DataType(DataType.ImageUrl)]
     public List<string> ImagesUrl { get; set; }
-    public Brand Brand { get; set; }
     public Model Model { get; set; }
 }
