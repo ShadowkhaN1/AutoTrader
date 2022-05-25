@@ -16,9 +16,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoTrader.Common", "AutoTr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoTrader.Application", "AutoTrader.Application", "{2F233E8E-A3EA-4DA9-8517-DD2AB27D18C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTrader.Application", "AutoTrader.Application\AutoTrader.Application.csproj", "{C69A753E-0B15-4458-9BC8-F555C029EDB5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoTrader.Application", "AutoTrader.Application\AutoTrader.Application.csproj", "{C69A753E-0B15-4458-9BC8-F555C029EDB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoTrader.Infrastructure", "AutoTrader.Infrastructure\AutoTrader.Infrastructure.csproj", "{1A92AACF-1D95-47D3-85EA-B96A0AC4AC60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoTrader.Infrastructure", "AutoTrader.Infrastructure\AutoTrader.Infrastructure.csproj", "{1A92AACF-1D95-47D3-85EA-B96A0AC4AC60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoTrader.Tests", "AutoTrader.Tests", "{6C037EBA-7868-4385-81BE-170A2C0D94C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

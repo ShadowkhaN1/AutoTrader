@@ -3,7 +3,7 @@ using MediatR;
 
 namespace AutoTrader.Application.SalesCars.Command;
 
-public class CreateSalesCarCommand : IRequest
+public class CreateSalesCarCommand : IRequest<Guid>
 {
     public CreateSalesCarCommand(SalesCarDto salesCarDto)
     {

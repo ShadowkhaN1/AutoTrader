@@ -8,5 +8,4 @@ public class ModelDto
     public string Name { get; private set; }
     public List<SalesCar> SalesCars { get; set; }
     public Brand Brand { get; set; }
-
 }
